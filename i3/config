@@ -31,10 +31,10 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id dmenu_run
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -43,10 +43,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -55,7 +55,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+b split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -145,12 +145,19 @@ bar {
     status_command i3status
 }
 
+# Hide window title bar
+for_window [class="^.*"] border pixel 2
+new_window 1pixel
+
+# If you have i3-gaps
+gaps inner 5
+smart_borders on
+smart_gaps on
+
+# Aditional software
+
 #Polybar
 exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
-
-# Hide window title bar
-for_window [class="^.*"] border pixel 1
-new_window 1pixel
 
 # Custom Keybindings
 ## Display management
@@ -158,9 +165,11 @@ new_window 1pixel
 ### Temp for Retina displays
 bindsym F11 exec xrandr --output eDP-1 --scale 0.5
 
-### TODO, Create desktop xrandr
-bindsym F12 exec xrandr --output eDP-1 --scale 0.3
+### Desktop
+bindsym F12 exec xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 --pos 1920x149 --rotate right --output DP-0 --rate 239 --primary --mode 1920x1080 --pos 0x1080 --rotate normal --output DP-1 --off --output DP-2 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-3 --off --output DP-4 --off --output DP-5 --off
 
-### Restore nitrogen
+## Restore nitrogen
 bindsym F10 exec nitrogen --restore
 
+## Keyboard Layout
+exec_always setxkbmap "us,cz(qwerty)" -option grp:lwin_toggle
