@@ -77,11 +77,6 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-# focus the child container
-#bindsym $mod+d focus child
-
-# Define names for default workspaces for which we configure key bindings later on.
-# We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -145,9 +140,27 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
 bar {
-	position top
-        status_command i3status
+    position top
+    status_command i3status
 }
+
+#Polybar
+exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
+
+# Hide window title bar
+for_window [class="^.*"] border pixel 1
+new_window 1pixel
+
+# Custom Keybindings
+## Display management
+
+### Temp for Retina displays
+bindsym F11 exec xrandr --output eDP-1 --scale 0.5
+
+### TODO, Create desktop xrandr
+bindsym F12 exec xrandr --output eDP-1 --scale 0.3
+
+### Restore nitrogen
+bindsym F10 exec nitrogen --restore
+
