@@ -27,8 +27,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+# start rofi (a program launcher)
+bindsym $mod+d exec --no-startup-id rofi -show run
 
 # change focus
 bindsym $mod+h focus left
@@ -140,10 +140,10 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-bar {
-    position top
-    status_command i3status
-}
+#bar {
+#    position top
+#    status_command i3status
+#}
 
 # Hide window title bar
 for_window [class="^.*"] border pixel 2
