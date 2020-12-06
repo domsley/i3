@@ -150,9 +150,8 @@ for_window [class="^.*"] border pixel 2
 new_window 1pixel
 
 # If you have i3-gaps
-gaps inner 5
+gaps inner 15
 smart_borders on
-smart_gaps on
 
 # Aditional software
 
