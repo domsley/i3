@@ -86,7 +86,6 @@ set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -98,7 +97,6 @@ bindsym $mod+6 workspace number $ws6
 bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -110,7 +108,6 @@ bindsym $mod+Shift+6 move container to workspace number $ws6
 bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -140,18 +137,18 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-#bar {
-#    position top
-#    status_command i3status
-#}
+bindsym $mod+Shift+plus  gaps inner all plus 5
+bindsym $mod+Shift+minus gaps inner all minus 5
+bindsym $mod+Shift+0     gaps inner all set 0
 
 # Hide window title bar
-for_window [class="^.*"] border pixel 2
-new_window 1pixel
+for_window [class="^.*"] border pixel 1
+client.focused #555555 #555555 #ffffff #ffffff #ffffff
 
 # If you have i3-gaps
 gaps inner 15
 smart_borders on
+
 
 # Aditional software
 
@@ -165,7 +162,7 @@ exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
 bindsym F11 exec xrandr --output eDP-1 --scale 0.5
 
 ### Desktop
-bindsym F12 exec xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 --pos 1920x149 --rotate right --output DP-0 --rate 239 --primary --mode 1920x1080 --pos 0x1080 --rotate normal --output DP-1 --off --output DP-2 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-3 --off --output DP-4 --off --output DP-5 --off
+bindsym F12 exec xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 --rate 144 --pos 1920x149 --rotate right --output DP-0 --rate 239 --primary --mode 1920x1080 --pos 0x1080 --rotate normal --output DP-1 --off --output DP-2 --mode 1920x1080 --rate 144 --pos 0x0 --rotate normal --output DP-3 --off --output DP-4 --off --output DP-5 --off
 
 ## Restore nitrogen
 bindsym F10 exec nitrogen --restore
