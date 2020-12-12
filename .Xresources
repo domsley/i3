@@ -1,0 +1,51 @@
+!! Font prefferenes
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=14:antialias=true
+URxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=14:weight=bold:antialias=true
+URxvt.letterSpace: -1
+
+!! Larger history limit
+URxvt.saveLines: 1000000
+
+!! Cursor size
+Xcursor.size: 16
+
+!! Perl extensions
+urxvt.perl-ext-common: default,matcher,font-size,resize-font,selection-to-clipboard
+
+!! Open urls in browser with Control-Click
+urxvt.urlLauncher: /usr/bin/firefox
+urxvt.matcher.button: C1
+
+!! Copy Paste 
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+!! Changing font size on the fly
+URxvt.keysym.C-Down:  resize-font:smaller
+URxvt.keysym.C-Up:    resize-font:bigger
+
+!! Appearance
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
+URxvt.internalBorder: 10
+
+!! Colorscheme
+URxvt.foreground:   #eaeaea
+URxvt.background:   #111111
+URxvt.cursorColor:  #aeafad
+URxvt*color0:       #000000
+URxvt*color1:       #912226
+URxvt*color2:       #778900
+URxvt*color3:       #ae7b00
+URxvt*color4:       #1d2594
+URxvt*color5:       #682a9b
+URxvt*color6:       #2b6651
+URxvt*color7:       #929593
+URxvt*color8:       #666666
+URxvt*color9:       #cc6666
+URxvt*color10:      #b5bd68
+URxvt*color11:      #f0c674
+URxvt*color12:      #81a2be
+URxvt*color13:      #b294bb
+URxvt*color14:      #8abeb7
+URxvt*color15:      #ecebec
