@@ -1,6 +1,10 @@
 /*
 /*/
 !/.gitignore
+!/zshrc
+!/xinitrc
+!/Xresources
+!/tmux.conf
 !/i3/
 !/nvim/
 !/polybar/
