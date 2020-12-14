@@ -1,5 +1,5 @@
-# Set master key to Alt
-set $mod Mod1
+# Master key
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -173,4 +173,4 @@ bindsym F12 exec xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 
 bindsym F10 exec nitrogen --restore
 
 ## Keyboard Layout
-exec_always setxkbmap "us,cz(qwerty)" -option grp:lwin_toggle
+exec_always setxkbmap "us,cz(qwerty)" -option grp:rwin_toggle
