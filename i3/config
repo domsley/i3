@@ -1,5 +1,13 @@
+#TODO: Create a small condition for keyboard type.
+# Apple type keyboard will use Mod4 instead of Mod1 by default.
+
 # Master key
+## Mod4 = Windows/Command key
+## Mod1 = Alt
 set $mod Mod4
+
+# Keyboard
+exec_always setxkbmap "us,cz(qwerty)" -option grp:rwin_toggle
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -171,6 +179,3 @@ bindsym F12 exec xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 
 
 ## Restore nitrogen
 bindsym F10 exec nitrogen --restore
-
-## Keyboard Layout
-exec_always setxkbmap "us,cz(qwerty)" -option grp:rwin_toggle
