@@ -9,11 +9,8 @@ set smartcase
 set ignorecase
 set scrolloff=10
 set tabstop=4 shiftwidth=4 expandtab
-
-" TODO: Create easy toggle
 set foldmethod=indent
 set nofoldenable
-
 set clipboard+=unnamedplus
 
 set colorcolumn=80
@@ -33,11 +30,40 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-repeat'
     Plug 'tpope/vim-commentary'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'preservim/nerdtree'
+    Plug 'majutsushi/tagbar'
+    Plug 'itchyny/lightline.vim'
 
-    " TODO: C# Development
+    "C# Development
     Plug 'OmniSharp/omnisharp-vim'
-    Plug 'dense-analysis/ale'
+
+    " Markdown 
+    Plug 'godlygeek/tabular'
+    Plug 'plasticboy/vim-markdown'
+    
+    " Syntax checker
+    Plug 'scrooloose/syntastic'
 call plug#end()
+
+let g:lightline = {
+      \ 'colorscheme': 'simpleblack',
+      \ }
+
+" NerdTree
+map <C-n> :NERDTreeToggle<CR>
+
+" Tagbar
+nmap <C-m> :TagbarToggle<CR>
+
+" Syntastic options
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 set list lcs=tab:\|\
 
@@ -65,10 +91,6 @@ nnoremap <leader>m :Marks<CR>
 nnoremap <leader>k :call <SID>show_documentation()<CR>
 nnoremap <leader>. :bn<CR>
 nnoremap <leader>, :bp<CR>
-
-" copy-paste
-map <C-c> "+y
-map <C-v> "+p
 
 nmap <leader><tab> <plug>(fzf-maps-n)
 
