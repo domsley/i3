@@ -6,12 +6,12 @@
 !/.Xresources
 !/.tmux.conf
 !/i3/
+!/doom/
 !/nvim/
 !/polybar/
 !/rofi/
 !/dunst/
 !/wallpapers/
 !/docs/
-!/spicetify/config.ini
 !/spicetify/Themes/
 !/README.md
