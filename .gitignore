@@ -5,6 +5,7 @@
 !/.xinitrc
 !/.Xresources
 !/.tmux.conf
+!/mountain.theme.css
 !/i3/
 !/doom/
 !/nvim/
@@ -16,6 +17,5 @@
 !/spicetify/Themes/
 !/alacritty
 !/qutebrowser
-!/BetterDiscord/themes/
 !/zathura
 !/README.md
