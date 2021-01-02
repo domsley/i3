@@ -12,6 +12,6 @@ levenshtein-sort: true;
 sidebar-mode: true;
 combi-modi: "drun,run,ssh";
 matching: "fuzzy";
-theme: "~/.config/rofi/themes/slate.rasi";
+theme: "~/.config/rofi/themes/mountain.rasi";
 combi-hide-mode-prefix: true;
 }

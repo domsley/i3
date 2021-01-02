@@ -33,7 +33,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+d exec --no-startup-id rofi -show drun
 
 # start firefox
 bindsym $mod+w exec --no-startup-id qutebrowser
@@ -153,7 +153,7 @@ client.focused #666666 #666666 #AC8AAC #AC8AAC #8F8AAC
 
 # If you have i3-gaps
 gaps inner 15
-smart_borders on
+# smart_borders on
 
 #Polybar
 exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
