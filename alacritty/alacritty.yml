@@ -3,8 +3,8 @@ env:
 
 window:
   padding:
-    x: 12
-    y: 12
+    x: 15
+    y: 15
   dimensions:
     columns: 0
     lines: 0
@@ -15,7 +15,7 @@ scrolling:
   multiplier: 1
 font:
   normal:
-    family: Iosevka Nerd Font
+    family: Monospace
   bold:
     family: Iosevka Nerd Font
   italic:

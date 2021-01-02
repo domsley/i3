@@ -39,10 +39,10 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id rofi -show run
 
 # start firefox
-bindsym $mod+w exec --no-startup-id firefox
+bindsym $mod+w exec --no-startup-id qutebrowser
 
 # start file manager
-bindsym $mod+n exec --no-startup-id nautilus
+bindsym $mod+n exec --no-startup-id dolphin
 
 # change focus
 bindsym $mod+h focus left
@@ -156,17 +156,14 @@ bindsym $mod+Shift+minus gaps inner all minus 5
 bindsym $mod+Shift+0     gaps inner all set 0
 
 # Hide window title bar
-for_window [class="^.*"] border pixel 2
-client.focused #555555 #555555 #ffffff #ffffff #ffffff
+for_window [class="^.*"] border pixel 1
+client.focused #666666 #666666 #AC8AAC #AC8AAC #8F8AAC
 
 # If you have i3-gaps
 gaps inner 15
 smart_borders on
 
-# Aditional software
-
 #Polybar
 exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
-
-# Custom Keybindings
-## Display management
+exec_always --no-startup-id unclutter &
+exec_always --no-startup-id nitrogen --restore &
