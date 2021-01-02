@@ -1,6 +1,3 @@
-#TODO: Create a small condition for keyboard type.
-# Apple type keyboard will use Mod4 instead of Mod1 by default.
-
 # Master key
 ## Mod4 = Windows/Command key
 ## Mod1 = Alt
@@ -76,11 +73,6 @@ bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
-
-# change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+q layout tabbed
-bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
