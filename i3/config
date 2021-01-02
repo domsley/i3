@@ -30,7 +30,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -170,12 +170,3 @@ exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
 
 # Custom Keybindings
 ## Display management
-
-### Temp for Retina displays
-bindsym F11 exec xrandr --output eDP-1 --scale 0.5
-
-### Desktop
-bindsym F12 exec xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 --rate 144 --pos 1920x149 --rotate right --output DP-0 --rate 239 --primary --mode 1920x1080 --pos 0x1080 --rotate normal --output DP-1 --off --output DP-2 --mode 1920x1080 --rate 144 --pos 0x0 --rotate normal --output DP-3 --off --output DP-4 --off --output DP-5 --off
-
-## Restore nitrogen
-bindsym F10 exec nitrogen --restore
