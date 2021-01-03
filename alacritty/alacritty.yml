@@ -15,12 +15,12 @@ scrolling:
   multiplier: 1
 font:
   normal:
-    family: Monospace
+    family: monospace
   bold:
     family: Iosevka Nerd Font
   italic:
     family: Iosevka Nerd Font
-  size: 11
+  size: 10
 
   offset:
     x: 0
