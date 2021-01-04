@@ -1,0 +1,4 @@
+visualizer.spectrum.color.scheme=mountain
+
+colors.override.terminal=false
+colors.scheme=mountain
