@@ -35,7 +35,7 @@ bindsym $mod+Shift+q kill
 # start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
 
-# start firefox
+# start browser
 bindsym $mod+w exec --no-startup-id qutebrowser
 
 # start file manager
