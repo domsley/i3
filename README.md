@@ -1,4 +1,4 @@
-polybar![Screenshot](docs/images/screenshot.png)
+![Screenshot](docs/images/screenshot.png)
 
 # Still in progress!
 Primarly used on Arch based distro
