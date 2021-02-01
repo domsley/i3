@@ -3,8 +3,8 @@ env:
 
 window:
   padding:
-    x: 15
-    y: 15
+    x: 16
+    y: 16
   dimensions:
     columns: 0
     lines: 0
@@ -15,11 +15,11 @@ scrolling:
   multiplier: 1
 font:
   normal:
-    family: monospace
+    family: Monaco
   bold:
-    family: Iosevka Nerd Font
+    family: Monaco
   italic:
-    family: Iosevka Nerd Font
+    family: Monaco
   size: 10
 
   offset:
@@ -90,7 +90,7 @@ selection:
 window.dynamic_title: true
 
 cursor:
-  style: Block
+  style: block
 
   unfocused_hollow: true
 

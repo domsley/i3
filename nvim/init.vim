@@ -19,7 +19,7 @@ highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 " TODO: add blink
-set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20
+" set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20
 
 call plug#begin('~/.vim/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -43,6 +43,9 @@ call plug#begin('~/.vim/plugged')
     
     " Syntax checker
     Plug 'scrooloose/syntastic'
+
+    " Discord
+    Plug 'aurieh/discord.nvim'
 call plug#end()
 
 let g:lightline = {
@@ -110,3 +113,4 @@ function! s:check_back_space() abort
 endfunction
 
 let g:coc_snippet_next = '<tab>'
+
