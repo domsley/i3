@@ -1,7 +1,6 @@
 ![Screenshot](docs/images/screenshot.png)
 
 # In progress!
-i3-gaps-rounded
 
 ## Theme
 [Mountain](https://github.com/pradyungn/Mountain)
@@ -11,7 +10,7 @@ i3-gaps-rounded
 - [Alacritty](https://github.com/alacritty/alacritty) - Super fast terminal
 - [Rofi](https://github.com/davatorium/rofi) - Program launcher
 - [Dunst](https://github.com/dunst-project/dunst) - Notification daemon
-- Nitrogen
+- feh
 - Unclutter - Hides your X mouse cursor when you do not need it.
 - Zathura - PDF viewer
 - Qutebrowser
