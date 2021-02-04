@@ -41,12 +41,6 @@ call plug#begin('~/.vim/plugged')
     " Syntax checker
     Plug 'scrooloose/syntastic'
 
-    " Discord
-    Plug 'aurieh/discord.nvim'
-
-    " Perform all your vim insert mode completions with Tab
-    Plug 'ervandew/supertab'
-
 call plug#end()
 
 let g:lightline = {
@@ -66,7 +60,6 @@ let g:syntastic_check_on_wq = 0
 set list lcs=tab:\|\
 
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
-let $FZF_DEFAULT_OPTS='--reverse --color=dark --color=fg:-1,bg:-1,hl:#c678dd,fg+:#ffffff,bg+:#4b5263,hl+:#d858fe --color=info:#98c379,prompt:#61afef,pointer:#be5046,marker:#e5c07b,spinner:#61afef,header:#61afef'
 
 command! -bang ProjectFiles call fzf#vim#files('~/workspace', <bang>0)
 

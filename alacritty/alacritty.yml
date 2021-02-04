@@ -15,11 +15,14 @@ scrolling:
   multiplier: 1
 font:
   normal:
-    family: Monaco
+    family: SourceCodePro
+    style: Regular
   bold:
-    family: Monaco
+    family: SourceCodePro
+    style: Bold
   italic:
-    family: Monaco
+    family: SourceCodePro
+    style: Italic
   size: 10
 
   offset:
@@ -90,7 +93,7 @@ selection:
 window.dynamic_title: true
 
 cursor:
-  style: block
+  style: Block
 
   unfocused_hollow: true
 
