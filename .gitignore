@@ -21,6 +21,8 @@
 !/vis
 !/fonts
 !/README.md
+!/bspwm
+!/sxhkd
 
 qutebrowser/mountain/__pycache__/__init__.cpython-39.pyc
 qutebrowser/mountain/__pycache__/draw.cpython-39.pyc

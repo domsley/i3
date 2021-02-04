@@ -14,12 +14,9 @@ set nofoldenable
 set clipboard+=unnamedplus
 
 set colorcolumn=80
-highlight ColorColumn ctermbg=0 guibg=#111111
-highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
+highlight ColorColumn ctermbg=0 guibg=#000000
+highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000 
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-
-" TODO: add blink
-" set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20
 
 call plug#begin('~/.vim/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -33,7 +30,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'preservim/nerdtree'
     Plug 'majutsushi/tagbar'
     Plug 'itchyny/lightline.vim'
-
+    
     "C# Development
     Plug 'OmniSharp/omnisharp-vim'
 
@@ -46,17 +43,15 @@ call plug#begin('~/.vim/plugged')
 
     " Discord
     Plug 'aurieh/discord.nvim'
+
+    " Perform all your vim insert mode completions with Tab
+    Plug 'ervandew/supertab'
+
 call plug#end()
 
 let g:lightline = {
       \ 'colorscheme': 'simpleblack',
       \ }
-
-" NerdTree
-map <C-n> :NERDTreeToggle<CR>
-
-" Tagbar
-nmap <C-m> :TagbarToggle<CR>
 
 " Syntastic options
 set statusline+=%#warningmsg#
@@ -71,34 +66,35 @@ let g:syntastic_check_on_wq = 0
 set list lcs=tab:\|\
 
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
-
 let $FZF_DEFAULT_OPTS='--reverse --color=dark --color=fg:-1,bg:-1,hl:#c678dd,fg+:#ffffff,bg+:#4b5263,hl+:#d858fe --color=info:#98c379,prompt:#61afef,pointer:#be5046,marker:#e5c07b,spinner:#61afef,header:#61afef'
 
 command! -bang ProjectFiles call fzf#vim#files('~/workspace', <bang>0)
+
+" Search
 nnoremap <leader><SPACE> :Files<CR>
-nnoremap <leader>w :w<CR>
 nnoremap <leader>o :ProjectFiles<CR>
 nnoremap <leader>f :CocSearch -S
 nnoremap <leader>l :Lines<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>r :Tags<CR>
-nnoremap <leader>g :Gcd<CR>
-nnoremap <leader>s :G<CR>
-nnoremap <leader>e :CocCommand explorer<CR>
-nnoremap <leader>q :q<CR>
-nnoremap <leader>p :vsplit<CR> \| :terminal git push<CR>i
-nnoremap <leader>n :tabnew<CR>
-nnoremap <leader>c :call CocAction('pickColor')<CR>
-nnoremap <leader>h :GitGutterPreviewHunk<CR>
 nnoremap <leader>m :Marks<CR>
-nnoremap <leader>k :call <SID>show_documentation()<CR>
+nmap <leader><tab> <plug>(fzf-maps-n)
+
+" General 
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
+nnoremap <leader>c :call CocAction('pickColor')<CR>
+nnoremap <leader>n :tabnew<CR>
 nnoremap <leader>. :bn<CR>
 nnoremap <leader>, :bp<CR>
 
-nmap <leader><tab> <plug>(fzf-maps-n)
+" NerdTree
+map <C-n> :NERDTreeToggle<CR>
+
+" Tagbar
+nmap <C-m> :TagbarToggle<CR>
 
 autocmd CursorHold * silent call CocActionAsync('highlight')
-
 nmap <leader>i  <Plug>(coc-format)
 
 inoremap <silent><expr> <TAB>
@@ -113,4 +109,3 @@ function! s:check_back_space() abort
 endfunction
 
 let g:coc_snippet_next = '<tab>'
-

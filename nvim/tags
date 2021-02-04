@@ -1,0 +1,330 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/donsly/.config/nvim/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+$FZF_DEFAULT_OPTS	init.vim	/^let $FZF_DEFAULT_OPTS='--reverse --color=dark --color=fg:-1,bg:-1,hl:#c678dd,fg+:#ffffff,bg+:#4b/;"	v
+<C-]>	pack/kite/start/vim-plugin/autoload/kite.vim	/^    nmap <silent> <buffer> <C-]> :KiteGotoDefinition<CR>$/;"	m
+<C-m>	init.vim	/^nmap <C-m> :TagbarToggle<CR>$/;"	m
+<C-n>	init.vim	/^map <C-n> :NERDTreeToggle<CR>$/;"	m
+<Plug>(kite-docs)	pack/kite/start/vim-plugin/plugin/kite.vim	/^nnoremap <silent> <Plug>(kite-docs) :call kite#docs#docs()<CR>$/;"	m
+<SPACE>	init.vim	/^map <SPACE> <leader>$/;"	m
+<TAB>	init.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<Tab>	pack/kite/start/vim-plugin/autoload/kite.vim	/^    imap <buffer> <expr> <Tab> pumvisible() ? "\\<C-y>" : "\\<Tab>"$/;"	m
+<leader>,	init.vim	/^nnoremap <leader>, :bp<CR>$/;"	m
+<leader>.	init.vim	/^nnoremap <leader>. :bn<CR>$/;"	m
+<leader><SPACE>	init.vim	/^nnoremap <leader><SPACE> :Files<CR>$/;"	m
+<leader><tab>	init.vim	/^nmap <leader><tab> <plug>(fzf-maps-n)$/;"	m
+<leader>b	init.vim	/^nnoremap <leader>b :Buffers<CR>$/;"	m
+<leader>c	init.vim	/^nnoremap <leader>c :call CocAction('pickColor')<CR>$/;"	m
+<leader>e	init.vim	/^nnoremap <leader>e :CocCommand explorer<CR>$/;"	m
+<leader>f	init.vim	/^nnoremap <leader>f :CocSearch -S$/;"	m
+<leader>g	init.vim	/^nnoremap <leader>g :Gcd<CR>$/;"	m
+<leader>h	init.vim	/^nnoremap <leader>h :GitGutterPreviewHunk<CR>$/;"	m
+<leader>i	init.vim	/^nmap <leader>i  <Plug>(coc-format)$/;"	m
+<leader>k	init.vim	/^nnoremap <leader>k :call <SID>show_documentation()<CR>$/;"	m
+<leader>l	init.vim	/^nnoremap <leader>l :Lines<CR>$/;"	m
+<leader>m	init.vim	/^nnoremap <leader>m :Marks<CR>$/;"	m
+<leader>n	init.vim	/^nnoremap <leader>n :tabnew<CR>$/;"	m
+<leader>o	init.vim	/^nnoremap <leader>o :ProjectFiles<CR>$/;"	m
+<leader>p	init.vim	/^nnoremap <leader>p :vsplit<CR> \\| :terminal git push<CR>i$/;"	m
+<leader>q	init.vim	/^nnoremap <leader>q :q<CR>$/;"	m
+<leader>r	init.vim	/^nnoremap <leader>r :Tags<CR>$/;"	m
+<leader>s	init.vim	/^nnoremap <leader>s :G<CR>$/;"	m
+<leader>w	init.vim	/^nnoremap <leader>w :w<CR>$/;"	m
+About Kite	pack/kite/start/vim-plugin/README.md	/^#### About Kite$/;"	t	subsection:Kite Python Plugin for Vim/Neovim""Features""Debugging
+Coc.nvim	pack/kite/start/vim-plugin/LSP.md	/^### Coc.nvim$/;"	S	section:Kite-LSP
+Commands	pack/kite/start/vim-plugin/README.md	/^### Commands$/;"	S	section:Kite Python Plugin for Vim/Neovim""Features
+Configuring supported languages	pack/kite/start/vim-plugin/README.md	/^### Configuring supported languages$/;"	S	section:Kite Python Plugin for Vim/Neovim""Installation
+Debugging	pack/kite/start/vim-plugin/README.md	/^### Debugging$/;"	S	section:Kite Python Plugin for Vim/Neovim""Features
+Development	pack/kite/start/vim-plugin/DEVELOPMENT.md	/^# Development$/;"	c
+Features	pack/kite/start/vim-plugin/README.md	/^## Features$/;"	s	chapter:Kite Python Plugin for Vim/Neovim
+Goto Definition	pack/kite/start/vim-plugin/README.md	/^### Goto Definition$/;"	S	section:Kite Python Plugin for Vim/Neovim""Features
+Installation	pack/kite/start/vim-plugin/DEVELOPMENT.md	/^# Installation$/;"	c
+Installation	pack/kite/start/vim-plugin/README.md	/^## Installation$/;"	s	chapter:Kite Python Plugin for Vim/Neovim
+Installing the Kite Engine	pack/kite/start/vim-plugin/README.md	/^### Installing the Kite Engine$/;"	S	section:Kite Python Plugin for Vim/Neovim""Installation
+Installing the Kite plugin for Vim/Neovim	pack/kite/start/vim-plugin/README.md	/^### Installing the Kite plugin for Vim\/Neovim$/;"	S	section:Kite Python Plugin for Vim/Neovim""Installation
+Intelligent Snippets	pack/kite/start/vim-plugin/README.md	/^### Intelligent Snippets$/;"	S	section:Kite Python Plugin for Vim/Neovim""Features
+K	pack/kite/start/vim-plugin/autoload/kite.vim	/^    nmap <silent> <buffer> K <Plug>(kite-docs)$/;"	m
+Kite	pack/kite/start/vim-plugin/plugin/kite.vim	/^augroup Kite$/;"	a
+Kite Copilot for Python Documentation	pack/kite/start/vim-plugin/README.md	/^### Kite Copilot for Python Documentation$/;"	S	section:Kite Python Plugin for Vim/Neovim""Features
+Kite Python Plugin for Vim/Neovim	pack/kite/start/vim-plugin/README.md	/^# Kite Python Plugin for Vim\/Neovim$/;"	c
+Kite-LSP	pack/kite/start/vim-plugin/LSP.md	/^## Kite-LSP$/;"	s
+KiteDisableAutoStart	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteDisableAutoStart                    call kite#disable_auto_start()$/;"	c
+KiteDocsAtCursor	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteDocsAtCursor                        call kite#docs#docs()$/;"	c
+KiteEnableAutoStart	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteEnableAutoStart                     call kite#enable_auto_start()$/;"	c
+KiteEvents	pack/kite/start/vim-plugin/autoload/kite.vim	/^  augroup KiteEvents$/;"	a
+KiteFindRelatedCodeFromFileExperimental	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteFindRelatedCodeFromFileExperimental call kite#codenav#from_file()$/;"	c
+KiteFindRelatedCodeFromLineExperimental	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteFindRelatedCodeFromLineExperimental call kite#codenav#from_line()$/;"	c
+KiteGeneralSettings	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteGeneralSettings                     call kite#client#settings()$/;"	c
+KiteGotoDefinition	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteGotoDefinition                      call kite#hover#goto_definition()$/;"	c
+KiteHidePopularPatterns	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteHidePopularPatterns                 call kite#signature#hide_popular_patterns()$/;"	c
+KiteOpenCopilot	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteOpenCopilot                         call kite#client#copilot()$/;"	c
+KitePermissions	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KitePermissions                         call kite#client#permissions()$/;"	c
+KiteShowPopularPatterns	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteShowPopularPatterns                 call kite#signature#show_popular_patterns()$/;"	c
+KiteSnippets	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^  augroup KiteSnippets$/;"	a
+KiteTutorial	pack/kite/start/vim-plugin/plugin/kite.vim	/^command! KiteTutorial                            call kite#onboarding#call(1)$/;"	c
+Line-of-Code Completions	pack/kite/start/vim-plugin/README.md	/^### Line-of-Code Completions$/;"	S	section:Kite Python Plugin for Vim/Neovim""Features
+Manual installation	pack/kite/start/vim-plugin/DEVELOPMENT.md	/^## Manual installation$/;"	s	chapter:Installation
+Neovim	pack/kite/start/vim-plugin/DEVELOPMENT.md	/^### Neovim$/;"	S	section:Installation""Manual installation
+Neovim-LSP	pack/kite/start/vim-plugin/LSP.md	/^### Neovim-LSP$/;"	S	section:Kite-LSP
+ProjectFiles	init.vim	/^command! -bang ProjectFiles call fzf#vim#files('~\/workspace', <bang>0)$/;"	c
+Requirements	pack/kite/start/vim-plugin/README.md	/^## Requirements$/;"	s	chapter:Kite Python Plugin for Vim/Neovim
+Signatures	pack/kite/start/vim-plugin/README.md	/^### Signatures$/;"	S	section:Kite Python Plugin for Vim/Neovim""Features
+Statusline	pack/kite/start/vim-plugin/README.md	/^### Statusline$/;"	S	section:Kite Python Plugin for Vim/Neovim""Features
+Vim	pack/kite/start/vim-plugin/DEVELOPMENT.md	/^### Vim$/;"	S	section:Installation""Manual installation
+b:current_syntax	pack/kite/start/vim-plugin/syntax/kite.vim	/^let b:current_syntax = 'kite'$/;"	v
+g:coc_snippet_next	init.vim	/^let g:coc_snippet_next = '<tab>'$/;"	v
+g:fzf_layout	init.vim	/^let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }$/;"	v
+g:jedi#completions_enabled	pack/kite/start/vim-plugin/autoload/kite.vim	/^    let g:jedi#completions_enabled = 0$/;"	v
+g:kite_auto_complete	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^      let g:kite_auto_complete = 0$/;"	v
+g:kite_auto_complete	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_auto_complete = 1$/;"	v
+g:kite_completion_max_width	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_completion_max_width = 75$/;"	v
+g:kite_completions	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_completions = 1$/;"	v
+g:kite_documentation_continual	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_documentation_continual = 0$/;"	v
+g:kite_log	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_log = 0$/;"	v
+g:kite_long_timeout	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_long_timeout = 400  " ms$/;"	v
+g:kite_next_placeholder	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_next_placeholder = '<C-J>'$/;"	v
+g:kite_previous_placeholder	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_previous_placeholder = '<C-K>'$/;"	v
+g:kite_short_timeout	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_short_timeout = 120  " ms$/;"	v
+g:kite_snippets	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_snippets = 1$/;"	v
+g:kite_supported_languages	pack/kite/start/vim-plugin/plugin/kite.vim	/^  let g:kite_supported_languages = ['python']$/;"	v
+g:lightline	init.vim	/^let g:lightline = {$/;"	v
+g:loaded_kite	pack/kite/start/vim-plugin/plugin/kite.vim	/^let g:loaded_kite = 1$/;"	v
+g:syntastic_always_populate_loc_list	init.vim	/^let g:syntastic_always_populate_loc_list = 1$/;"	v
+g:syntastic_auto_loc_list	init.vim	/^let g:syntastic_auto_loc_list = 1$/;"	v
+g:syntastic_check_on_open	init.vim	/^let g:syntastic_check_on_open = 1$/;"	v
+g:syntastic_check_on_wq	init.vim	/^let g:syntastic_check_on_wq = 0$/;"	v
+g:ycm_filetype_blacklist	pack/kite/start/vim-plugin/autoload/kite.vim	/^    let g:ycm_filetype_blacklist.python = 1$/;"	v
+kite#activate_when_ready	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! kite#activate_when_ready(...)$/;"	f
+kite#async#execute	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! kite#async#execute(cmd, handler, ...)$/;"	f
+kite#async#sync	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! kite#async#sync(cmd)$/;"	f
+kite#bufenter	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! kite#bufenter()$/;"	f
+kite#client#completions	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#completions(json, handler)$/;"	f
+kite#client#copilot	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#copilot()$/;"	f
+kite#client#counter	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#counter(json, handler)$/;"	f
+kite#client#docs	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#docs(word)$/;"	f
+kite#client#hover	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#hover(filename, hash, cursor, handler)$/;"	f
+kite#client#languages	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#languages(handler)$/;"	f
+kite#client#max_file_size	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#max_file_size()$/;"	f
+kite#client#onboarding_file	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#onboarding_file(handler)$/;"	f
+kite#client#permissions	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#permissions()$/;"	f
+kite#client#post_event	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#post_event(json, handler)$/;"	f
+kite#client#request_history	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^  function! kite#client#request_history()$/;"	f
+kite#client#request_related	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#request_related(json, handler)$/;"	f
+kite#client#reset_request_history	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^  function! kite#client#reset_request_history()$/;"	f
+kite#client#settings	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#settings()$/;"	f
+kite#client#signatures	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#signatures(json, handler)$/;"	f
+kite#client#status	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! kite#client#status(filename, handler)$/;"	f
+kite#codenav#from_file	pack/kite/start/vim-plugin/autoload/kite/codenav.vim	/^function! kite#codenav#from_file()$/;"	f
+kite#codenav#from_line	pack/kite/start/vim-plugin/autoload/kite/codenav.vim	/^function! kite#codenav#from_line()$/;"	f
+kite#codenav#handler	pack/kite/start/vim-plugin/autoload/kite/codenav.vim	/^function! kite#codenav#handler(response) abort$/;"	f
+kite#codenav#request_related	pack/kite/start/vim-plugin/autoload/kite/codenav.vim	/^function! kite#codenav#request_related(filename, line)$/;"	f
+kite#completion#autocomplete	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! kite#completion#autocomplete()$/;"	f
+kite#completion#complete	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! kite#completion#complete(findstart, base)$/;"	f
+kite#completion#expand_newlines	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! kite#completion#expand_newlines()$/;"	f
+kite#completion#handler	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! kite#completion#handler(counter, startcol, response) abort$/;"	f
+kite#completion#insertcharpre	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! kite#completion#insertcharpre()$/;"	f
+kite#completion#replace_range	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! kite#completion#replace_range()$/;"	f
+kite#configure_completeopt	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! kite#configure_completeopt()$/;"	f
+kite#disable_auto_start	pack/kite/start/vim-plugin/autoload/kite.vim	/^function kite#disable_auto_start()$/;"	f
+kite#docs#docs	pack/kite/start/vim-plugin/autoload/kite/docs.vim	/^function! kite#docs#docs()$/;"	f
+kite#document#Document	pack/kite/start/vim-plugin/autoload/kite/document.vim	/^let kite#document#Document = {}$/;"	v
+kite#document#Document.New	pack/kite/start/vim-plugin/autoload/kite/document.vim	/^function! kite#document#Document.New(dict)$/;"	f
+kite#document#Document.dig	pack/kite/start/vim-plugin/autoload/kite/document.vim	/^function! kite#document#Document.dig(key, default)$/;"	f
+kite#enable_auto_start	pack/kite/start/vim-plugin/autoload/kite.vim	/^function kite#enable_auto_start()$/;"	f
+kite#events#any_events_pending	pack/kite/start/vim-plugin/autoload/kite/events.vim	/^function! kite#events#any_events_pending()$/;"	f
+kite#events#event	pack/kite/start/vim-plugin/autoload/kite/events.vim	/^function! kite#events#event(action)$/;"	f
+kite#events#handler	pack/kite/start/vim-plugin/autoload/kite/events.vim	/^function! kite#events#handler(bufnr, response)$/;"	f
+kite#hover#goto_definition	pack/kite/start/vim-plugin/autoload/kite/hover.vim	/^function! kite#hover#goto_definition()$/;"	f
+kite#hover#goto_definition_handler	pack/kite/start/vim-plugin/autoload/kite/hover.vim	/^function! kite#hover#goto_definition_handler(response)$/;"	f
+kite#hover#handler	pack/kite/start/vim-plugin/autoload/kite/hover.vim	/^function! kite#hover#handler(response)$/;"	f
+kite#hover#hover	pack/kite/start/vim-plugin/autoload/kite/hover.vim	/^function! kite#hover#hover()$/;"	f
+kite#languages#handler	pack/kite/start/vim-plugin/autoload/kite/languages.vim	/^function! kite#languages#handler(response)$/;"	f
+kite#languages#supported_by_kited	pack/kite/start/vim-plugin/autoload/kite/languages.vim	/^function! kite#languages#supported_by_kited()$/;"	f
+kite#languages#supported_by_plugin	pack/kite/start/vim-plugin/autoload/kite/languages.vim	/^function! kite#languages#supported_by_plugin()$/;"	f
+kite#max_file_size	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! kite#max_file_size()$/;"	f
+kite#metrics#fulfilled	pack/kite/start/vim-plugin/autoload/kite/metrics.vim	/^function! kite#metrics#fulfilled(name)$/;"	f
+kite#metrics#handler	pack/kite/start/vim-plugin/autoload/kite/metrics.vim	/^function! kite#metrics#handler(response)$/;"	f
+kite#metrics#requested	pack/kite/start/vim-plugin/autoload/kite/metrics.vim	/^function! kite#metrics#requested(name)$/;"	f
+kite#onboarding#call	pack/kite/start/vim-plugin/autoload/kite/onboarding.vim	/^function! kite#onboarding#call(force)$/;"	f
+kite#onboarding#handler	pack/kite/start/vim-plugin/autoload/kite/onboarding.vim	/^function! kite#onboarding#handler(response) abort$/;"	f
+kite#onboarding#popup_callback	pack/kite/start/vim-plugin/autoload/kite/onboarding.vim	/^function! kite#onboarding#popup_callback(_, result)$/;"	f
+kite#signature#completion_counter	pack/kite/start/vim-plugin/autoload/kite/signature.vim	/^function! kite#signature#completion_counter()$/;"	f
+kite#signature#handler	pack/kite/start/vim-plugin/autoload/kite/signature.vim	/^function! kite#signature#handler(counter, startcol, response) abort$/;"	f
+kite#signature#hide_popular_patterns	pack/kite/start/vim-plugin/autoload/kite/signature.vim	/^function! kite#signature#hide_popular_patterns()$/;"	f
+kite#signature#increment_completion_counter	pack/kite/start/vim-plugin/autoload/kite/signature.vim	/^function! kite#signature#increment_completion_counter()$/;"	f
+kite#signature#should_show_popular_patterns	pack/kite/start/vim-plugin/autoload/kite/signature.vim	/^function! kite#signature#should_show_popular_patterns()$/;"	f
+kite#signature#show_popular_patterns	pack/kite/start/vim-plugin/autoload/kite/signature.vim	/^function! kite#signature#show_popular_patterns()$/;"	f
+kite#snippet#complete_done	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! kite#snippet#complete_done()$/;"	f
+kite#snippet#next_placeholder	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! kite#snippet#next_placeholder()$/;"	f
+kite#snippet#previous_placeholder	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! kite#snippet#previous_placeholder(...)$/;"	f
+kite#snippet#teardown_maps	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! kite#snippet#teardown_maps()$/;"	f
+kite#status#handler	pack/kite/start/vim-plugin/autoload/kite/status.vim	/^function! kite#status#handler(buffer, response)$/;"	f
+kite#status#status	pack/kite/start/vim-plugin/autoload/kite/status.vim	/^function! kite#status#status(...)$/;"	f
+kite#statusline	pack/kite/start/vim-plugin/autoload/kite.vim	/^function kite#statusline()$/;"	f
+kite#symbol	pack/kite/start/vim-plugin/autoload/kite.vim	/^function kite#symbol()$/;"	f
+kite#utils#browse	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#browse(url)$/;"	f
+kite#utils#buffer_contents	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#buffer_contents()$/;"	f
+kite#utils#buffer_md5	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#buffer_md5()$/;"	f
+kite#utils#byte_offset_end	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#byte_offset_end()$/;"	f
+kite#utils#byte_offset_start	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#byte_offset_start()$/;"	f
+kite#utils#capitalize	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#capitalize(str)$/;"	f
+kite#utils#character_offset	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#character_offset()$/;"	f
+kite#utils#coerce	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#coerce(dict, key, default)$/;"	f
+kite#utils#cursor_characters	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#cursor_characters()$/;"	f
+kite#utils#filepath	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#filepath(url_format)$/;"	f
+kite#utils#get_setting	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#get_setting(key, ...)$/;"	f
+kite#utils#goto_character	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#goto_character(index)$/;"	f
+kite#utils#info	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#info(msg)$/;"	f
+kite#utils#kite_installed	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#kite_installed()$/;"	f
+kite#utils#kite_running	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#kite_running()$/;"	f
+kite#utils#launch_kited	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#launch_kited()$/;"	f
+kite#utils#lib	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#lib(filename)$/;"	f
+kite#utils#log	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#log(msg)$/;"	f
+kite#utils#macos	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#macos()$/;"	f
+kite#utils#map_join	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#map_join(list, prop, sep)$/;"	f
+kite#utils#normalise_version	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#normalise_version(version)$/;"	f
+kite#utils#os	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#os()$/;"	f
+kite#utils#plugin_version	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#plugin_version()$/;"	f
+kite#utils#present	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#present(dict, key)$/;"	f
+kite#utils#ralign	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#ralign(text, length)$/;"	f
+kite#utils#selected_region_bytes	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#selected_region_bytes()$/;"	f
+kite#utils#selected_region_characters	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#selected_region_characters()$/;"	f
+kite#utils#set_setting	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#set_setting(key, value)$/;"	f
+kite#utils#truncate	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#truncate(text, length)$/;"	f
+kite#utils#url_encode	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#url_encode(str)$/;"	f
+kite#utils#vim_version	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#vim_version()$/;"	f
+kite#utils#warn	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#warn(msg)$/;"	f
+kite#utils#windows	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#windows()$/;"	f
+kite#utils#wrap	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! kite#utils#wrap(str, length, indent)$/;"	f
+s:MD5	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^  let s:MD5 = function('s:md5')$/;"	v
+s:MD5	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^  let s:MD5 = function('s:md5bin')$/;"	v
+s:MD5	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^  let s:MD5 = function('s:md5sum')$/;"	v
+s:adapt	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:adapt(completion_option, lhs_width, rhs_width, nesting)$/;"	f
+s:async	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:async(callback)$/;"	f
+s:async_sync_id	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^let s:async_sync_id = 0$/;"	v
+s:async_sync_output	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! s:async_sync_output(async_sync_id, output)$/;"	f
+s:async_sync_outputs	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^let s:async_sync_outputs = {}$/;"	v
+s:base_url	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:base_url           = 'http:\/\/127.0.0.1:'.s:port$/;"	v
+s:before_function_call_argument	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:before_function_call_argument(line)$/;"	f
+s:begin	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^let s:begin = 0$/;"	v
+s:border	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:border(text)$/;"	f
+s:build_command	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! s:build_command(cmd)$/;"	f
+s:channel_base	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:channel_base       = 'localhost:'.s:port$/;"	v
+s:check_back_space	init.vim	/^function! s:check_back_space() abort$/;"	f
+s:chomp	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:chomp(str)$/;"	f
+s:clear_all_placeholder_highlights	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:clear_all_placeholder_highlights()$/;"	f
+s:codenav_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:codenav_path       = '\/codenav\/editor\/related'$/;"	v
+s:completeopt_suitable	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:completeopt_suitable()$/;"	f
+s:completion_counter	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^let s:completion_counter = 0$/;"	v
+s:completion_counter	pack/kite/start/vim-plugin/autoload/kite/signature.vim	/^let s:completion_counter = 0$/;"	v
+s:copilot_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:copilot_path       = 'kite:\/\/home'$/;"	v
+s:counter_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:counter_path       = '\/clientapi\/metrics\/counters'$/;"	v
+s:cursormoved	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:cursormoved()$/;"	f
+s:debug_stack	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:debug_stack()$/;"	f
+s:disable_completion_plugins	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:disable_completion_plugins()$/;"	f
+s:doc_dir	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^let s:doc_dir    = s:plugin_dir.s:separator.'doc'$/;"	v
+s:docs_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:docs_path          = 'kite:\/\/docs\/'$/;"	v
+s:editor_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:editor_path        = '\/clientapi\/editor'$/;"	v
+s:end	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^let s:end = 0$/;"	v
+s:events_pending	pack/kite/start/vim-plugin/autoload/kite/events.vim	/^let s:events_pending = 0$/;"	v
+s:external_http	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:external_http(url, timeout, ...)$/;"	f
+s:external_http_cmd	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:external_http_cmd(endpoint, timeout, data)$/;"	f
+s:feedkeys	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function s:feedkeys(keys)$/;"	f
+s:findstart	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:findstart()$/;"	f
+s:get_completions	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:get_completions()$/;"	f
+s:goto_initial_completion_end	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:goto_initial_completion_end()$/;"	f
+s:handle_choice	pack/kite/start/vim-plugin/autoload/kite/onboarding.vim	/^function! s:handle_choice(index)$/;"	f
+s:heading	pack/kite/start/vim-plugin/autoload/kite/signature.vim	/^function s:heading(text)$/;"	f
+s:highlight_current_level_placeholders	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:highlight_current_level_placeholders()$/;"	f
+s:highlight_group_for_placeholders	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:highlight_group_for_placeholders()$/;"	f
+s:hover_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:hover_path         = '\/api\/buffer\/vim'$/;"	v
+s:http_binary	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:http_binary = kite#utils#lib('kite-http')$/;"	v
+s:increment	pack/kite/start/vim-plugin/autoload/kite/metrics.vim	/^function! s:increment(name)$/;"	f
+s:indent	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:indent(nesting)$/;"	f
+s:inited	pack/kite/start/vim-plugin/autoload/kite.vim	/^let s:inited = 0$/;"	v
+s:insertleave	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:insertleave()$/;"	f
+s:internal_http	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:internal_http(path, timeout, ...)$/;"	f
+s:kite_auto_launched	pack/kite/start/vim-plugin/autoload/kite.vim	/^let s:kite_auto_launched = 0$/;"	v
+s:kite_install_path	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:kite_install_path()$/;"	f
+s:kite_symbol	pack/kite/start/vim-plugin/autoload/kite.vim	/^  let s:kite_symbol = '[k]'$/;"	v
+s:kite_symbol	pack/kite/start/vim-plugin/autoload/kite.vim	/^  let s:kite_symbol = nr2char(printf('%d', '0x27E0'))$/;"	v
+s:languages_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:languages_path     = '\/clientapi\/languages'$/;"	v
+s:languages_supported_by_kited	pack/kite/start/vim-plugin/autoload/kite/languages.vim	/^let s:languages_supported_by_kited = []$/;"	v
+s:launch_kited	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:launch_kited()$/;"	f
+s:lib_dir	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^let s:lib_dir    = s:plugin_dir.s:separator.'lib'$/;"	v
+s:lib_subdir	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^let s:lib_subdir = s:lib_dir.s:separator.(s:os)$/;"	v
+s:max_display_length	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:max_display_length(completions, nesting)$/;"	f
+s:max_file_size_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:max_file_size_path = '\/clientapi\/settings\/max_file_size_kb'$/;"	v
+s:max_hint_length	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:max_hint_length(completions)$/;"	f
+s:md5	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:md5(text)$/;"	f
+s:md5_binary	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^  let s:md5_binary = kite#utils#lib('md5Sum.exe')$/;"	v
+s:md5bin	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:md5bin(text)$/;"	f
+s:md5sum	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:md5sum(text)$/;"	f
+s:next_async_sync_id	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! s:next_async_sync_id()$/;"	f
+s:on_exit_nvim	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! s:on_exit_nvim(_job_id, _data, _event) dict$/;"	f
+s:on_exit_vim	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! s:on_exit_vim(job, exit_status) dict$/;"	f
+s:on_std_out	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:on_std_out(_channel, message) dict$/;"	f
+s:on_stdout_nvim	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! s:on_stdout_nvim(_job_id, data, event) dict$/;"	f
+s:on_stdout_vim	pack/kite/start/vim-plugin/autoload/kite/async.vim	/^function! s:on_stdout_vim(_channel, data) dict$/;"	f
+s:onboarding_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:onboarding_path    = '\/clientapi\/plugins\/onboarding_file?editor=vim'$/;"	v
+s:option	pack/kite/start/vim-plugin/autoload/kite/onboarding.vim	/^let s:option = 'onboarding_required'$/;"	v
+s:os	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^    let s:os = empty(findfile('\/sbin\/launchd')) ? 'linux' : 'macos'$/;"	v
+s:os	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^  let s:os = 'windows'$/;"	v
+s:parse_and_handle	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:parse_and_handle(handler, out)$/;"	f
+s:parse_response	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:parse_response(lines)$/;"	f
+s:permissions_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:permissions_path   = 'kite:\/\/settings\/permissions'$/;"	v
+s:placeholder	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:placeholder(index)$/;"	f
+s:plugin_dir	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^let s:plugin_dir = expand('<sfile>:p:h:h:h')$/;"	v
+s:plugin_version	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^let s:plugin_version = ''$/;"	v
+s:popup_warn	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:popup_warn(msg)$/;"	f
+s:port	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:port               = empty($KITED_TEST_PORT) ? 46624 : $KITED_TEST_PORT$/;"	v
+s:prompted	pack/kite/start/vim-plugin/autoload/kite/metrics.vim	/^let s:prompted = 0$/;"	v
+s:remove_smaps_for_printable_characters	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:remove_smaps_for_printable_characters()$/;"	f
+s:restore_options	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:restore_options()$/;"	f
+s:restore_smaps	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:restore_smaps()$/;"	f
+s:selected_region	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:selected_region(type)$/;"	f
+s:separator	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^let s:separator  = !exists('+shellslash') || &shellslash ? '\/' : '\\'$/;"	v
+s:set_max_file_size	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:set_max_file_size()$/;"	f
+s:settings	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:settings()$/;"	f
+s:settings_dir	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^  let s:settings_dir = expand('~\/.kite')$/;"	v
+s:settings_dir	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^  let s:settings_dir = join([$LOCALAPPDATA, 'Kite'], s:separator)$/;"	v
+s:settings_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:settings_path      = 'kite:\/\/settings'$/;"	v
+s:settings_path	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^let s:settings_path = s:settings_dir.s:separator.'vim-plugin.json'$/;"	v
+s:setup_autocmds	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:setup_autocmds()$/;"	f
+s:setup_events	pack/kite/start/vim-plugin/autoload/kite.vim	/^function s:setup_events()$/;"	f
+s:setup_mappings	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:setup_mappings()$/;"	f
+s:setup_maps	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:setup_maps()$/;"	f
+s:setup_options	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:setup_options()$/;"	f
+s:setup_stack	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:setup_stack()$/;"	f
+s:shellescape	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:shellescape(str)$/;"	f
+s:shellescape	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:shellescape(arg)$/;"	f
+s:should_trigger_completion	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^let s:should_trigger_completion = 0$/;"	v
+s:signs_in_buffer	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:signs_in_buffer()$/;"	f
+s:start_status_timer	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:start_status_timer()$/;"	f
+s:start_watching_for_kited	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:start_watching_for_kited()$/;"	f
+s:status_in_status_line	pack/kite/start/vim-plugin/autoload/kite/status.vim	/^function! s:status_in_status_line()$/;"	f
+s:status_path	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^let s:status_path        = '\/clientapi\/status?filename='$/;"	v
+s:status_poll_interval	pack/kite/start/vim-plugin/autoload/kite.vim	/^let s:status_poll_interval = 5 * 1000  " 5sec in milliseconds$/;"	v
+s:stop_status_timer	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:stop_status_timer()$/;"	f
+s:stop_watching_for_kited	pack/kite/start/vim-plugin/autoload/kite.vim	/^function! s:stop_watching_for_kited()$/;"	f
+s:teardown	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:teardown()$/;"	f
+s:teardown_autocmds	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:teardown_autocmds()$/;"	f
+s:text	pack/kite/start/vim-plugin/autoload/kite/onboarding.vim	/^let s:text = [$/;"	v
+s:timer	pack/kite/start/vim-plugin/autoload/kite.vim	/^let s:timer = -1$/;"	v
+s:timer_get	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:timer_get(path, timeout, handler, timer)$/;"	f
+s:timer_post	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:timer_post(path, timeout, json, handler, timer)$/;"	f
+s:unmap_menu_keys	pack/kite/start/vim-plugin/autoload/kite/onboarding.vim	/^function! s:unmap_menu_keys()$/;"	f
+s:update_placeholder_locations	pack/kite/start/vim-plugin/autoload/kite/snippet.vim	/^function! s:update_placeholder_locations()$/;"	f
+s:vim_version	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^let s:vim_version = ''$/;"	v
+s:wait_for_pending_events	pack/kite/start/vim-plugin/autoload/kite/client.vim	/^function! s:wait_for_pending_events()$/;"	f
+s:watch_timer	pack/kite/start/vim-plugin/autoload/kite.vim	/^let s:watch_timer = -1$/;"	v
+s:winshell	pack/kite/start/vim-plugin/autoload/kite/utils.vim	/^function! s:winshell()$/;"	f
+s:winwidth	pack/kite/start/vim-plugin/autoload/kite/completion.vim	/^function! s:winwidth()$/;"	f
