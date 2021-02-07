@@ -3,32 +3,52 @@ visualBell: true
 xterm*faceName: Iosevka Nerd Font
 xterm*faceSize: 9
 
-! Mountain Xresources palette
-*.foreground: #f0f0f0
-*.background: #0f0f0f
-*.color0:     #262626
-*.color8:     #4c4c4c
-*.color1:     #ac8a8c
-*.color9:     #c49ea0
-*.color2:     #8aac8b
-*.color10:    #9ec49f
-*.color3:     #aca98a
-*.color11:    #c4c19e
-*.color4:     #8f8aac
-*.color12:    #a39ec4
-*.color5:     #ac8aac
-*.color13:    #c49ec4
-*.color6:     #8aabac
-*.color14:    #9ec3c4
-*.color7:     #e7e7e7
-*.color15:    #f5f5f5
-
+Xcursor.theme: xcursor-neutral 
 Xcursor.size: 10
 
-Xft.dpi: 96
-Xft.antialias: true
-Xft.hinting: true
-Xft.rgba: rgb
-Xft.autohint: false
-Xft.hintstyle: hintslight
-Xft.lcdfilter: lcddefault
+URxvt.font: xft:SourceCodePro:size=10:antialias=true
+URxvt.boldFont: xft:SourceCodePro:bold:size=10:antialias=true
+URxvt*cursorBlink: true
+URxvt.scrollBar: false
+
+! Mountain Xresources palette
+!*.foreground: #f0f0f0
+!*.background: #0f0f0f
+!*.color0:     #262626
+!*.color8:     #4c4c4c
+!*.color1:     #ac8a8c
+!*.color9:     #c49ea0
+!*.color2:     #8aac8b
+!*.color10:    #9ec49f
+!*.color3:     #aca98a
+!*.color11:    #c4c19e
+!*.color4:     #8f8aac
+!*.color12:    #a39ec4
+!*.color5:     #ac8aac
+!*.color13:    #c49ec4
+!*.color6:     #8aabac
+!*.color14:    #9ec3c4
+!*.color7:     #e7e7e7
+!*.color15:    #f5f5f5
+
+*.foreground:   #EEEEEE
+*.background:   #010101
+*.borderColor: #010101
+*.cursorColor:  #ff5f87
+
+*.color0:       #161f28
+*.color8:       #303d4b
+*.color1:       #b34f63
+*.color9:       #f4718c
+*.color2:       #3e5266
+*.color10:      #7097ba
+*.color3:       #4d6982
+*.color11:      #598ab8
+*.color4:       #567ca4
+*.color12:      #8dabc8
+*.color5:       #4c607d
+*.color13:      #53769d
+*.color6:       #a9bdd5
+*.color14:      #8093aa
+*.color7:       #dde3eb
+*.color15:      #dde3eb
