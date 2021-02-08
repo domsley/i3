@@ -11,13 +11,9 @@ bspc config border_width 0
 bspc config top_padding 25
 bspc config border_radius 6
 
-# rules
-bspc rule -a Spotify desktop='^4'
-bspc rule -a google-chrome-stable border=off
-
 # startup
 ~/.config/polybar/./launch.sh
-feh --bg-fill $HOME/.config/wallpapers/big-sur.jpg
+feh --bg-fill $HOME/.config/wallpapers/3.jpg
 xsetroot -cursor_name left_ptr &
 picom --experimental-backends &
 setxkbmap "us,cz(qwerty)" -option grp:rwin_toggle
