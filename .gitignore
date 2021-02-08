@@ -2,9 +2,7 @@
 /*/
 !/.gitignore
 !/.zshrc
-!/.xinitrc
 !/.Xresources
-!/.tmux.conf
 !/discordthemes/
 !/doom/
 !/nvim/init.vim
@@ -25,3 +23,4 @@
 !/bspwm
 !/sxhkd
 !/package_list.txt
+!/picom.conf
