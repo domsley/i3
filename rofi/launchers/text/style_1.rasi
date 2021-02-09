@@ -8,8 +8,8 @@
  */
 
 configuration {
-    lines:							6;
-    columns:						1;
+    lines:							10;
+    columns:						2;
     font: 							"Iosevka Nerd Font 12";
     bw: 							0;
     location: 						0;
@@ -21,7 +21,7 @@ configuration {
     hide-scrollbar: 				true;
     fullscreen: 					false;
     fake-transparency: 				false;
-    scroll-method: 					0;
+    scroll-method: 					1;
     window-format: 					"[{w}] ··· {c} ···   {t}";
     click-to-exit: 					true;
     show-match: 					false;
@@ -34,7 +34,7 @@ configuration {
     display-combi: 					"";
 }
 
-@import "styles/black.rasi"
+@import "styles/colors.rasi"
 
 * {
     background-color:             	@bg;
@@ -43,9 +43,10 @@ configuration {
 window {
     border: 						0px;
     border-color: 					@ac;
-    border-radius: 					6px;
-    padding: 						30;
-    width: 							20%;
+    border-radius: 					12px;
+    padding: 						40;
+    width: 							50%;
+    height: 						50%;
 }
 
 prompt {
@@ -90,13 +91,12 @@ listview {
     border-color: 					@ac;
     spacing: 						4px;
     scrollbar: 						false;
-    padding: 						5px 5px 0px 5px;
+    padding: 						4px 0px 0px;
 }
 
 element {
     border: 						0px;
-    border-radius: 					4px;
-    padding: 						5px;
+    padding: 						1px;
 }
 element normal.normal {
     background-color: 				@bg;
@@ -107,20 +107,20 @@ element normal.urgent {
     text-color:       				@red;
 }
 element normal.active {
-    background-color: 				@green;
-    text-color:       				@bg;
+    background-color: 				@bg;
+    text-color:       				@green;
 }
 element selected.normal {
-    background-color: 				@fg;
-    text-color:       				@bg;
+    background-color: 				@bg;
+    text-color:       				@ac;
 }
 element selected.urgent {
     background-color: 				@bg;
     text-color:       				@red;
 }
 element selected.active {
-    background-color: 				@fg;
-    text-color:       				@bg;
+    background-color: 				@bg;
+    text-color:       				@ac;
 }
 element alternate.normal {
     background-color: 				@bg;
@@ -138,25 +138,23 @@ element alternate.active {
 sidebar {
     border:       					0px;
     border-color: 					@ac;
-    border-radius: 					0px;
+    border-radius: 					20px;
 }
 
 button {
-    background-color:             	@fg;
     margin: 						5px;
     padding: 						5px;
-    text-color: 					@bg;
+    text-color: 					@fg;
     border: 						0px;
-    border-radius: 					4px;
+    border-radius: 					20px;
     border-color: 					@fg;
 }
 
 button selected {
-    background-color:             	@ac;
     text-color: 					@fg;
-    border: 						0px;
-    border-radius: 					4px;
-    border-color: 					@fg;
+    border: 						3px;
+    border-radius: 					20px;
+    border-color: 					@ac;
 }
 
 scrollbar {

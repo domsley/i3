@@ -1,4 +1,6 @@
+/** Basic config file **/
+
 configuration {
-    terminal: "alacritty";
-    theme: "~/.config/rofi/themes/dark.rasi";
+  show-icons:         true;
+  icon-theme:         "Papirus";
 }
