@@ -13,7 +13,6 @@ bspc config gapless_monocle        true
 bspc config focus_follows_pointer  true
 bspc config border_width 0
 bspc config top_padding 25
-bspc config border_radius 6
 
 # startup
 ~/.config/polybar/./launch.sh
