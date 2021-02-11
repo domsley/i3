@@ -19,6 +19,11 @@ set nowrap
 set incsearch
 set colorcolumn=80
 set termguicolors
+set noshowmode
+set noruler
+set laststatus=0
+set noshowcmd
+set cmdheight=1
 
 call plug#begin('~/.vim/plugged')
 
@@ -58,6 +63,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'mhinz/vim-startify'
     Plug 'itchyny/lightline.vim'
     Plug 'lucasprag/simpleblack'
+
 call plug#end()
 
 " COLORS
