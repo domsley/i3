@@ -15,7 +15,7 @@ set foldmethod=indent
 set nofoldenable
 set clipboard+=unnamedplus
 set hidden
-set nowrap
+" set nowrap
 set incsearch
 set colorcolumn=80
 set termguicolors
@@ -135,6 +135,9 @@ map <leader>h :wincmd h<CR>
 map <leader>j :wincmd j<CR>
 map <leader>k :wincmd k<CR>
 map <leader>l :wincmd l<CR>
+
+" remap esc
+inoremap jk <esc>
 
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
