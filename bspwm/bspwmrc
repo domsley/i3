@@ -26,5 +26,5 @@ bspc config top_padding 25
 feh --bg-fill $HOME/.config/wallpapers/1.jpg
 xsetroot -cursor_name left_ptr &
 picom --experimental-backends &
-setxkbmap "us,cz(qwerty)" -option grp:rctrl_toggle
+setxkbmap "us,cz(qwerty)" -option grp:alt_shift_toggle
 unclutter &
