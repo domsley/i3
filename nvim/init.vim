@@ -1,5 +1,5 @@
 syntax on
-map <SPACE> <leader>
+map <space> <leader>
 
 set number
 set mouse=a
@@ -21,9 +21,10 @@ set colorcolumn=80
 set termguicolors
 set noshowmode
 set noruler
-set laststatus=0
-set noshowcmd
-set cmdheight=1
+
+" set laststatus=0
+" set noshowcmd
+" set cmdheight=1
 
 call plug#begin('~/.vim/plugged')
 
@@ -40,7 +41,6 @@ call plug#begin('~/.vim/plugged')
 
     " Files
     Plug 'preservim/nerdtree'
-    Plug 'majutsushi/tagbar'
 
     " C++
     Plug 'octol/vim-cpp-enhanced-highlight'
@@ -136,14 +136,8 @@ map <leader>j :wincmd j<CR>
 map <leader>k :wincmd k<CR>
 map <leader>l :wincmd l<CR>
 
-" remap esc
-inoremap jk <esc>
-
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
-
-" Tagbar
-nmap <C-m> :TagbarToggle<CR>
 
 ":Prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile

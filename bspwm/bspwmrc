@@ -22,7 +22,7 @@ bspc config top_padding 25
 
 # Startup
 ~/.config/polybar/./launch.sh
-feh --bg-fill $HOME/.config/wallpapers/3.jpg
+feh --bg-fill $HOME/.config/wallpapers/4.png
 xsetroot -cursor_name left_ptr &
 picom --experimental-backends &
 setxkbmap "us,cz(qwerty)" -option grp:alt_shift_toggle
