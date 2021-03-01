@@ -1,6 +1,7 @@
 # Paths
 export ZSH="/home/donsly/.oh-my-zsh"
 export PATH="${PATH}:${HOME}/.local/bin/:$HOME/.config/composer/vendor/bin"
+export TERM=xterm-256color
 
 # ! Install spaceship theme
 ZSH_THEME="spaceship"
