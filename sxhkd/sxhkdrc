@@ -6,9 +6,17 @@
 super + Return
 	alacritty
 
+# terminal in floating mode
+super + {_,shift +}Return
+    {alacritty, bspc rule -a \* -o state=floating && alacritty}
+
 # program launcher
 super + d
-    $HOME/.config/rofi/bin/launcher_colorful
+    rofi -show {drun} -theme $HOME/.config/rofi/material.rasi
+
+# browser
+super + w
+    google-chrome-stable
 
 # make sxhkd reload its configuration files:
 super + Escape

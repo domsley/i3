@@ -49,3 +49,4 @@ yay
 zathura
 zsh
 zsh-autosuggestions
+nerd-fonts-jetbrains-mono

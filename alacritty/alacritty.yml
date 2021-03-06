@@ -55,7 +55,7 @@ font:
   offset:
     x: 0
     y: 0
-  size: 13
+  size: 12
   use_thin_strokes: true
 hide_cursor_when_typing: true
 key_bindings:
