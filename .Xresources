@@ -1,11 +1,12 @@
 visualBell: false
-Xft.antialias: true
-Xft.rgba: rgb
-Xft.hinting: true
-Xft.hintstyle: hintslight
-Xft.autohint: false
-Xft.lcdfilter: lcddefault
+
 Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
 
 Xcursor.theme: xcursor-neutral
 Xcursor.size: 10
